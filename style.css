@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    background-color: yellowgreen;
+    font-family: 'Playpen Sans';
+}
+
+.form{
+    background-color: rgb(175, 178, 213);
+    padding: 20px;
+    box-shadow: 5px 5px 7px rgba(65, 6, 203, 0.8);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.input{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 28px;
+    text-align: center;
+    padding: 10px;
+    border: solid 4px rgba(180, 1, 251, 0.8);
+    color: blue;
+}
+
+.input::placeholder{
+    color: blueviolet;
+    font-family: cursive;
+}
+
+.btn{
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    display: inline;
+    width: 30%;
+    padding: 10px;
+    font-size: 20px;
+    font-family: cursive;
+    margin: 10px 0px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer; 
+}
+
+.btn:hover{
+    filter: invert(0.8);
+}
+
+.score{
+    color:rgb(98, 0, 255);
+    font-size: 25px;
+}
